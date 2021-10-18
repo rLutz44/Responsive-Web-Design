@@ -1,2 +1,2 @@
 # Responsive Web Design
- Web Design for Desktop + Smartphone Browser
+ Web Layout that adjusts with screen size (Desktop & Smartphone)
