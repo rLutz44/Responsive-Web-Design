@@ -18,11 +18,17 @@ h2 {
     margin: 0 0 16px 0;
 }
 
+header {
+    color: #FFFFFF;
+    background-color: #46834b;
+    padding: 80px 0;
+    text-align: center;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 20px 0 20px;
     max-width: 900px;
-    border-style: solid;
 }
 
 .button {
