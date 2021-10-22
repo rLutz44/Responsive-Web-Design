@@ -48,6 +48,8 @@ h2 {
     background: #407a45;
 }
 
+/* -------------------  */
+
 section {
     text-align: center;
     padding: 40px 0;
@@ -69,11 +71,36 @@ section {
 }
 
 .quote {
-    background: #5482a0;
+    background: #54a05a;
     color: #FFFFFF;
 }
 
-footer{
+/* -------------------  */
+
+blockquote {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+blockquote p {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+}
+
+blockquote cite {
+    font-size: 16px;
+    font-style: italic;
+}
+
+blockquote cite:before {
+    content: '-';
+    margin-right: 5px;
+}
+
+/* -------------------  */
+
+footer {
     background: #3535358f;
     padding: 32px 0;
     text-align: center;
