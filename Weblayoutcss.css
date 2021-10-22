@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans','Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
 header {
     color: #FFFFFF;
     background-color: #46834b;
@@ -41,9 +48,34 @@ h2 {
     background: #407a45;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans','Helvetica Neue', Helvetica, sans-serif;
-    line-height: 1.5;
+section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.features {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.feature {
+    width: 32%;
+    display: inline-block;
+    font-size:16px;
+}
+
+.feature img {
+    width: 40%;
+}
+
+.quote {
+    background: #5482a0;
+    color: #FFFFFF;
+}
+
+footer{
+    background: #3535358f;
+    padding: 32px 0;
+    text-align: center;
+    color: #FFFFFF;
 }
