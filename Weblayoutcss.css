@@ -21,7 +21,7 @@ header {
 }
 
 h1 {
-    font-size: 48;
+    font-size: 48px;
     margin: 0 0 16px 0;
 }
 
@@ -36,7 +36,7 @@ h2 {
     color: white;
     font-weight: 500;
     font-size: 20px;
-    background: #54a05a;
+    background: #58b660;
     border: none;
     border-radius: 4px;
     padding: 12px 16px;
@@ -45,7 +45,7 @@ h2 {
 
 .button:hover {
     /*change button color when cursor hovers over it*/
-    background: #407a45;
+    background: #549b5a;
 }
 
 /* -------------------  */
@@ -130,3 +130,23 @@ footer li a:hover {
 }
 
 /* -------------------  */
+
+ @media screen and (max-width: 480px) {
+     .button {
+        display: block;
+        font-size: 18px;
+     }
+
+     h1 {
+         font-size: 32px;
+         margin: 0 0 8px 0 ;
+     }
+
+     h2 {
+         font-size: 18px;
+     }
+
+     section {
+         padding: 25px 0;
+     }
+ }
